@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    box-shadow: 0 15px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.app {
+    width: 70%;
+    background-color: #ffecda;
+
+}
+
+.image {
+    width: 30%;
+    background-image: url("../img/foto1.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(39%);
+
+}
+
+select,
+button {
+    padding: 6px 16px;
+    font-size: 16px;
+
+}
+
+button {
+    margin-top: 30px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: #ffecda;
+    border: 1px solid #6e3d0f;
+    color: #6e3d0f;
+    /* box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.5); */
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 13px;
+    transition: .2s;
+}
+
+button:hover {
+    background-color: #6e3d0f;
+    color: #ffecda;
+}
+
+select {
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #6e3d0f;
+    background-color: #ffecda;
+    width: 290px;
+}
+
+input {
+    font-size: 18px;
+    padding: 6px 16px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #6e3d0f;
+    background-color: #ffecda;
+    width: 290px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 400;
+    margin: 30px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 7px;
+}
+
+.main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    animation: show 1.2s ease;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+        margin-top: 40px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+
+}
+
+.main h3 {
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 16px;
+}
+
+.main span {
+    color: black;
+    font-weight: bold;
+}
+
+.select {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.reset {
+    margin-left: 20px;
+}
+
+h3.red {
+    color: red;
+}
+
+
+@media(max-width: 865px) {
+    .app {
+        width: 80%;
+    }
+
+    h1 {
+        margin: 23px;
+    }
+}
+
+@media(max-width: 759px) {
+    .app {
+        width: 90%;
+    }
+
+
+
+    .main {
+        width: 87%;
+    }
+
+    .select {
+        width: 87%;
+    }
+
+    select {
+        padding: 8px 7px;
+        font-size: 18px;
+
+    }
+}
+
+@media(max-width: 665px) {
+    .app {
+        width: 100%;
+    }
+
+    .image {
+        width: 0;
+    }
+
+    .main h3 {
+        margin: 17px 0;
+    }
+
+    input,
+    select {
+        width: 250px;
+    }
+
+}
+
+@media(max-width: 560px) {
+    h1 {
+        font-size: 1.6rem;
+        margin: 20px;
+    }
+
+    select {
+        font-size: 16.5px;
+    }
+
+    .main h3 {
+        font-size: 1.17rem;
+        margin: 15px 0;
+    }
+
+
+    button {
+        margin-bottom: 20px;
+    }
+
+
+}
