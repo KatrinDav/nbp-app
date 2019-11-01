@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nbp-app/static/css/main.3e1cd01a.chunk.css",
+    "main.js": "/nbp-app/static/js/main.7be9cc5c.chunk.js",
+    "main.js.map": "/nbp-app/static/js/main.7be9cc5c.chunk.js.map",
+    "runtime-main.js": "/nbp-app/static/js/runtime-main.a37ddacd.js",
+    "runtime-main.js.map": "/nbp-app/static/js/runtime-main.a37ddacd.js.map",
+    "static/js/2.1d2b1bbe.chunk.js": "/nbp-app/static/js/2.1d2b1bbe.chunk.js",
+    "static/js/2.1d2b1bbe.chunk.js.map": "/nbp-app/static/js/2.1d2b1bbe.chunk.js.map",
+    "index.html": "/nbp-app/index.html",
+    "precache-manifest.d5ed8935fb713bc09b439e8c64950c18.js": "/nbp-app/precache-manifest.d5ed8935fb713bc09b439e8c64950c18.js",
+    "service-worker.js": "/nbp-app/service-worker.js",
+    "static/css/main.3e1cd01a.chunk.css.map": "/nbp-app/static/css/main.3e1cd01a.chunk.css.map",
+    "static/media/App.css": "/nbp-app/static/media/foto1.faec2c39.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a37ddacd.js",
+    "static/js/2.1d2b1bbe.chunk.js",
+    "static/css/main.3e1cd01a.chunk.css",
+    "static/js/main.7be9cc5c.chunk.js"
+  ]
+}
